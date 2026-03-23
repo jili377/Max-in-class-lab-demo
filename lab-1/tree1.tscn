@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bvr3l78tbb60w"]
+
+[ext_resource type="Texture2D" uid="uid://cg0uu8mcrbtnu" path="res://Basic Grass Biom things 1.png" id="1_xg27b"]
+
+[node name="Sprite2D" type="Sprite2D" unique_id=1437873397]
+scale = Vector2(4, 4)
+texture = ExtResource("1_xg27b")
+region_enabled = true
+region_rect = Rect2(19, 1, 25, 30)

@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://bgh1m5tkxpokq"]
+
+[ext_resource type="Texture2D" uid="uid://ns4cxmxh30l4" path="res://Free Cow Sprites.png" id="1_uu6xs"]
+[ext_resource type="Texture2D" uid="uid://5y837ojsnbla" path="res://Egg_And_Nest.png" id="2_r0du0"]
+[ext_resource type="PackedScene" uid="uid://bvr3l78tbb60w" path="res://tree1.tscn" id="3_r0du0"]
+
+[node name="main" type="Node2D" unique_id=1584078152]
+position = Vector2(0, -2)
+
+[node name="cow" type="Sprite2D" parent="." unique_id=1583526337]
+position = Vector2(68, 7)
+scale = Vector2(4, 4)
+texture = ExtResource("1_uu6xs")
+region_enabled = true
+region_rect = Rect2(0, 0, 33.121, 31.483)
+
+[node name="egg" type="Sprite2D" parent="." unique_id=2065631585]
+position = Vector2(163, 31)
+scale = Vector2(4, 4)
+texture = ExtResource("2_r0du0")
+region_enabled = true
+region_rect = Rect2(0, 0, 17, 16)
+
+[node name="root_tree" type="Sprite2D" parent="." unique_id=1199827601]
+
+[node name="tree1" parent="root_tree" unique_id=1437873397 instance=ExtResource("3_r0du0")]
+position = Vector2(-110, -5)
+
+[node name="tree2" parent="root_tree" unique_id=483841261 instance=ExtResource("3_r0du0")]
+position = Vector2(458, 8)
+
+[node name="tree3" parent="root_tree" unique_id=1232030578 instance=ExtResource("3_r0du0")]
+position = Vector2(-256, -7)
+
+[node name="tree4" parent="root_tree" unique_id=1329570095 instance=ExtResource("3_r0du0")]
+position = Vector2(378, 4)
+
+[node name="tree5" parent="root_tree" unique_id=1229951533 instance=ExtResource("3_r0du0")]
+position = Vector2(-203, -7)
+
+[node name="tree6" parent="root_tree" unique_id=321558850 instance=ExtResource("3_r0du0")]
+position = Vector2(-28, -7)
+
+[node name="tree7" parent="root_tree" unique_id=222743 instance=ExtResource("3_r0du0")]
+position = Vector2(308, 4)
+
+[node name="tree8" parent="root_tree" unique_id=1262089758 instance=ExtResource("3_r0du0")]
+position = Vector2(243, 5)
