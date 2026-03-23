@@ -1,17 +1,19 @@
 [gd_scene format=3 uid="uid://bgh1m5tkxpokq"]
 
 [ext_resource type="Texture2D" uid="uid://ns4cxmxh30l4" path="res://Free Cow Sprites.png" id="1_uu6xs"]
+[ext_resource type="Script" uid="uid://dvs2wq15jpdix" path="res://cow.gd" id="2_cm0pq"]
 [ext_resource type="Texture2D" uid="uid://5y837ojsnbla" path="res://Egg_And_Nest.png" id="2_r0du0"]
 [ext_resource type="PackedScene" uid="uid://bvr3l78tbb60w" path="res://tree1.tscn" id="3_r0du0"]
 
 [node name="main" type="Node2D" unique_id=1584078152]
 
 [node name="cow" type="Sprite2D" parent="." unique_id=1583526337]
-position = Vector2(68, 7)
+position = Vector2(66, -2)
 scale = Vector2(4, 4)
 texture = ExtResource("1_uu6xs")
 region_enabled = true
 region_rect = Rect2(0, 0, 33.121, 31.483)
+script = ExtResource("2_cm0pq")
 
 [node name="egg" type="Sprite2D" parent="." unique_id=2065631585]
 position = Vector2(163, 31)
@@ -45,3 +47,6 @@ position = Vector2(308, 4)
 
 [node name="tree8" parent="root_tree" unique_id=1262089758 instance=ExtResource("3_r0du0")]
 position = Vector2(243, 5)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1019242628]
+position = Vector2(95, 0)
