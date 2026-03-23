@@ -5,7 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://bvr3l78tbb60w" path="res://tree1.tscn" id="3_r0du0"]
 
 [node name="main" type="Node2D" unique_id=1584078152]
-position = Vector2(0, -2)
 
 [node name="cow" type="Sprite2D" parent="." unique_id=1583526337]
 position = Vector2(68, 7)
